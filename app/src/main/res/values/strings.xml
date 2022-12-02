@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">boletsellerAP</string>
+    <string name="emailtw">Email</string>
+    <string name="contraseña">Contraseña</string>
+</resources>
