@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -21,15 +22,17 @@
             app:srcCompat="@drawable/logo" />
 
         <EditText
-            android:id="@+id/emailtxt"
+            android:id="@+id/etEmail"
             android:layout_width="277dp"
             android:layout_height="48dp"
             android:layout_marginTop="60dp"
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/ic_email"
             android:ems="10"
-            android:hint="@string/emailtw"
+            android:hint="@string/email"
             android:inputType="textPersonName"
+            android:paddingHorizontal="10dp"
+            android:drawablePadding="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,18 +40,20 @@
             tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/etPassword"
             android:layout_width="277dp"
             android:layout_height="48dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/ic_contra"
             android:ems="10"
-            android:hint="@string/contraseña"
+            android:hint="@string/password"
             android:inputType="textPassword"
+            android:paddingHorizontal="10dp"
+            android:drawablePadding="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/emailtxt"
+            app:layout_constraintTop_toBottomOf="@+id/etEmail"
             tools:ignore="TextContrastCheck" />
 
         <Button
@@ -57,19 +62,19 @@
             android:layout_height="51dp"
             android:layout_marginTop="48dp"
             android:backgroundTint="#BA0D00"
-            android:text="ACCEDER"
+            android:text="@string/btnacceder"
             app:cornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+            app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="-----------------OR-----------------"
+            android:text="----------------- O -----------------"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +86,7 @@
             android:layout_height="51dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/black"
-            android:text="CREAR CUENTA"
+            android:text="@string/crear_cuenta"
             app:cornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"

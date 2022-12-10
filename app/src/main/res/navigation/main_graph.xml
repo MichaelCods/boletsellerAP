@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="pe.edu.idat.boletsellerap.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_buscarFragment"
+            app:destination="@id/buscarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buscarFragment"
+        android:name="pe.edu.idat.boletsellerap.BuscarFragment"
+        android:label="fragment_buscar"
+        tools:layout="@layout/fragment_buscar" >
+        <action
+            android:id="@+id/action_buscarFragment_to_ticketFragment"
+            app:destination="@id/ticketFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ticketFragment"
+        android:name="pe.edu.idat.boletsellerap.TicketFragment"
+        android:label="fragment_ticket"
+        tools:layout="@layout/fragment_ticket" >
+        <action
+            android:id="@+id/action_ticketFragment_to_usuarioFragment"
+            app:destination="@id/usuarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usuarioFragment"
+        android:name="pe.edu.idat.boletsellerap.UsuarioFragment"
+        android:label="fragment_usuario"
+        tools:layout="@layout/fragment_usuario" />
+</navigation>

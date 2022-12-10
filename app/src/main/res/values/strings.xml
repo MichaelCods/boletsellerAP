@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">boletsellerAP</string>
-    <string name="emailtw">Email</string>
-    <string name="contraseña">Contraseña</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fecha">Mar FEB 14, 4 PM</string>
+    <string name="concierto">Mötley Crüe</string>
+    <string name="precio">S/520.00</string>
+    <string name="nscrollview">nscrollview</string>
+    <string name="tipodecat">Categorias</string>
+    <string name="tipodecat2">Categorias</string>
+    <string name="tipodecat3">Categorias</string>
+    <string name="tipodecat4">Categorias</string>
+    <string name="tipodeevent">Tipo de evento</string>
+    <string name="tipodeevent2">Tipodeevento2</string>
+    <string name="tipodeevent3">Tipodeevento3</string>
+    <string name="tipodeevent4">Tipodeevento4</string>
+    <string name="crear_cuenta">CREAR CUENTA</string>
+    <string name="btnacceder">ACCEDER</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="o">O</string>
+    <string name="apellidos">Apellidos</string>
 </resources>

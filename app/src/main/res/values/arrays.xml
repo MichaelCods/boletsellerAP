@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feedbacktypelist">
+        <item>@string/tipodeevent</item>
+        <item>@string/tipodeevent2</item>
+        <item>@string/tipodeevent3</item>
+        <item>@string/tipodeevent4</item>
+    </string-array>
+    <string-array name="feedbacktypecategories">
+        <item>@string/tipodecat</item>
+        <item>@string/tipodecat2</item>
+        <item>@string/tipodecat3</item>
+        <item>@string/tipodecat4</item>
+    </string-array>
+</resources>
